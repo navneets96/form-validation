@@ -1,0 +1,47 @@
+.cont{
+    background-image: linear-gradient(to right, #083547 , #008c9e);    
+}
+.main{
+    width: 50%;
+    justify-content: center;
+    left: 50%;
+}
+.form-outer{
+    background-color: #fff;
+    border-radius: 15px;
+}
+.form-inner{
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+.form-main{
+    padding: 10px;
+}
+.btn-color{
+    margin-top: 5px;
+    background-color: #0e5ef3;
+    color: #fff;
+}
+.form-row{
+    transform: translate(0%, 10%);
+}
+.input-control.success input{
+    border-color: #24f52f;
+}
+.input-control.error input {
+    border-color: red;
+
+}
+#userNameError{
+    color: red;
+}
+#emailError{
+    color: red;
+}
+#passwordError{
+    color: red;
+}
+#cpasswordError{
+    color: red;
+}
