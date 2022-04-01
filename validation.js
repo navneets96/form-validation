@@ -61,7 +61,6 @@ const validateForm = (event) =>{
     const emailRegex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     
     if(userName == ''){
-        // alert('usernaem')
         document.getElementById('userNameError').innerText="username is required";
     }else{
         document.getElementById('userNameError').innerText="";
