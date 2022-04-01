@@ -26,9 +26,7 @@
 .form-row{
     transform: translate(0%, 10%);
 }
-.input-control.success input{
-    border-color: #24f52f;
-}
+
 .input-control.error input {
     border-color: red;
 

@@ -38,7 +38,7 @@ let countries = {
             stateSelect.options[stateSelect.options.length] = new Option(state, state)
         }        
     }  
-    
+        
         stateSelect.onchange = function () {
             citySelect.length = 1;
             if(this.selectedIndex < 1)
